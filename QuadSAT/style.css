@@ -155,21 +155,30 @@ cursor: pointer;
  background-color: var(--cta-color);
  text-align: center;
  color: var(--text-color);
- font-size: 18px;
+ font-size: 14px;
  font-weight: 600;
  margin-right: 30px;
+ cursor: pointer;
+ padding-top: 3px;
 }
 .cta-button-header p {
   margin-top: 6px;
 }
 .notifikation-header {
    margin-right: 30px;
+   cursor: pointer;
 }
 .profile-header img{
   margin-right: 30px;
+  cursor: pointer;
 }
 .profile-header p {
   color: var(--text-color);
   font-size: 18px;
   font-weight: 600;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.arrowdown-header {
+  margin-top: 15px;
 }
