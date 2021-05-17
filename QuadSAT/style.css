@@ -8,11 +8,12 @@
 
 :root {
   --primary-color: #171717;
-  --lighter-dark: #1E1E1E;
+  --lighter-dark: #1a1a1a;
   --text-color: #f4f4f4;
   --cta-color: #2C3AFF;
   --active-color: #3ABC3A;
   --inactive-color: #FF3030;
+  --border-color: #262626;
 }
 
 body {
@@ -29,6 +30,8 @@ body {
   position: fixed;
   width: 300px;
   background-color: var(--lighter-dark);
+  border-right: 1px solid var(--border-color);
+
 
 
 }
@@ -101,4 +104,72 @@ cursor: pointer;
   font-weight: 600;
   cursor: pointer;
 
+}
+.header-content {
+  position: fixed;
+  top: 0;
+  left: 300px;
+  width: calc(100% - 300px);
+  height: 100px;
+  background-color: var(--lighter-dark);
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+
+
+}
+.header-search {
+  height: 50px;
+  width: 280px;
+  margin-left: 100px;
+  margin-top: 23px;
+  border-radius: 15px;
+  background-color: #202020;
+
+}
+.header-search input {
+  padding-left: 20px;
+  font-size: 18px;
+  background-color: #202020;
+  margin-top: 11px;
+  outline: none;
+  border: none;
+  color: var(--text-color)
+}
+.header-elements {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 40px;
+  list-style-type: none;
+
+}
+
+.profile-header {
+  display: flex;
+}
+.cta-button-header {
+ width: 150px;
+ height: 40px;
+ border-radius: 13px;
+ background-color: var(--cta-color);
+ text-align: center;
+ color: var(--text-color);
+ font-size: 18px;
+ font-weight: 600;
+ margin-right: 30px;
+}
+.cta-button-header p {
+  margin-top: 6px;
+}
+.notifikation-header {
+   margin-right: 30px;
+}
+.profile-header img{
+  margin-right: 30px;
+}
+.profile-header p {
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 600;
 }

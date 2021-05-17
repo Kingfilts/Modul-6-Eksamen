@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="29" viewBox="0 0 26 29">
+  <g id="Group_41" data-name="Group 41" transform="translate(-1603 -41)">
+    <g id="Group_6" data-name="Group 6">
+      <path id="notification" d="M14.406,27.865a2.609,2.609,0,0,0,2.6-2.6H11.8A2.6,2.6,0,0,0,14.406,27.865Zm7.8-7.8v-6.5c0-3.993-2.133-7.336-5.853-8.221V4.451a1.951,1.951,0,0,0-3.9,0v.885C8.722,6.22,6.6,9.55,6.6,13.556v6.5L4,22.662v1.3H24.812v-1.3Z" transform="translate(1599 42.135)" fill="#fff"/>
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="4" cy="4" r="4" transform="translate(1621 41)" fill="#ff3030"/>
+    </g>
+  </g>
+</svg>
