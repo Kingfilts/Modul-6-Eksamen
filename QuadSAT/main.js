@@ -1,19 +1,29 @@
+
 const feedbackRank = document.querySelectorAll('.feedback-rank')
 const feedbackContainer = document.querySelector('.feedback-rank-container')
 const submitBtn = document.querySelector('#submit')
 const feedback = document.querySelector('#feedback')
-let automatedRating = 'Very Good'
-let modalFeedback = document.getElementById ('feedback-modal2');
-let feedbackBtn = document.getElementById ('btn-feedback');
-let feedbackClose = document.getElementsByClassName("btn-cancel");
+const automatedRating = 'Very Good'
 
-feedbackBtn.addEventListener("click",function() {
-  console.log("click")
+
+const modalFeedback = document.getElementById ('feedback-modal2');
+const btnFeedback = document.getElementById('btnfeedback');
+const feedbackClose = document.getElementById('cancel');
+
+btnFeedback.addEventListener("click",function() {
+  modalFeedback.style.display = "block";
 });
 
 feedbackClose.addEventListener("click",function() {
   modalFeedback.style.display = "none";
 });
+
+window.addEventListener("keydown", function (e) {
+    if (e.keyCode == 27  && modalFeedback.style.display == "block") {
+        modalFeedback.style.display = "none";
+    }
+});
+
 
 feedbackContainer.addEventListener('click', (e) => {
     if(e.target.parentNode.classList.contains
@@ -39,8 +49,11 @@ submitBtn.addEventListener('click', (e) => {
          <br>
          <button class="btn-cancel" id="cancel">Cancel</button>
          `
+         const feedbackClose = document.getElementById('cancel');
+         feedbackClose.addEventListener("click",function() {
+           modalFeedback.style.display = "none";
+         });
 })
-
 
 function removeActive() {
   for(let i = 0; i < feedbackRank.length; i++) {
@@ -62,3 +75,4 @@ function myFunction(event) {
   if (x == 13) {
     bøjd.className = "show";
   }
+}
