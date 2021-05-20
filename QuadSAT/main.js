@@ -3,6 +3,17 @@ const feedbackContainer = document.querySelector('.feedback-rank-container')
 const submitBtn = document.querySelector('#submit')
 const feedback = document.querySelector('#feedback')
 let automatedRating = 'Very Good'
+let modalFeedback = document.getElementById ('feedback-modal2');
+let feedbackBtn = document.getElementById ('btn-feedback');
+let feedbackClose = document.getElementsByClassName("btn-cancel");
+
+feedbackBtn.addEventListener("click",function() {
+  console.log("click")
+});
+
+feedbackClose.addEventListener("click",function() {
+  modalFeedback.style.display = "none";
+});
 
 feedbackContainer.addEventListener('click', (e) => {
     if(e.target.parentNode.classList.contains
