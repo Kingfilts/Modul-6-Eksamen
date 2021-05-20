@@ -3,7 +3,7 @@ const feedbackRank = document.querySelectorAll('.feedback-rank')
 const feedbackContainer = document.querySelector('.feedback-rank-container')
 const submitBtn = document.querySelector('#submit')
 const feedback = document.querySelector('#feedback')
-const automatedRating = 'Very Good'
+let automatedRating = 'Very Good'
 
 
 const modalFeedback = document.getElementById ('feedback-modal2');
