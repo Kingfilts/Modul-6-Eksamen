@@ -26,7 +26,7 @@ submitBtn.addEventListener('click', (e) => {
          <br>
          <br>
          <br>
-         <button class="btn1" id="cancel">Cancel</button>
+         <button class="btn-cancel" id="cancel">Cancel</button>
          `
 })
 
