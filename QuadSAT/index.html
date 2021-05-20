@@ -10,6 +10,56 @@
   <title>Dashboard</title>
 </head>
 <body>
+
+
+<div id="modal" class="modal">
+
+<div class="feedback-modal">
+
+<div id="feedback" class="feedback-container">
+<strong>Please leave us your feedback, it means a lot!</strong>
+
+ <div class="feedback-rank-container">
+
+ <div class="feedback-rank">
+      <img src="img/sad.png" alt="">
+      <small>Not happy</small>
+  </div>
+
+  <div class="feedback-rank">
+      <img src="img/neutral.png" alt="">
+      <small>It's okay</small>
+  </div>
+
+  <div class="feedback-rank">
+      <img src="img/smile.png" alt="">
+      <small>Very Good</small>
+</div>
+  </div>
+
+  <div class="button-container">
+
+
+  <button class="btn-cancel" id="cancel">Cancel</button>
+
+  <button class="btn-submit" id="submit">Submit Feedback</button>
+
+  </div>
+
+  </div>
+  </div>
+
+  <script src="main.js"></script>
+
+
+</div>
+
+
+
+
+
+
+
 <div class="page-container">
   <div class="sidebar">
     <img src="img/whitelogo.svg" alt="">
@@ -39,7 +89,7 @@
     <div class="feedback-container">
       <h3>We love Feedback</h3>
       <img src="img/feedback-star.png" width="48px" height="48px">
-      <button class="btn-feedback" type="button" name="button">Give feedback</button>
+      <button id="btn-feedback" class="btn-feedback" type="button" name="button">Give feedback</button>
     </div>
     <div class="logout">
     <img src="img/logout.svg" alt="" width="26px" height="26px">
