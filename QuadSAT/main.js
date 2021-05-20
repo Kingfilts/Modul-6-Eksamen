@@ -47,3 +47,18 @@ function removeActive() {
      feedbackRank[i].classList.remove('active')
   }
 }
+
+function popuptoast() {
+
+  var bøjd = document.getElementById("toastPopup");
+
+  bøjd.className = "show";
+
+  setTimeout(function() { bøjd.className = bøjd.className.replace("show", ""); }, 3000);
+}
+
+function myFunction(event) {
+  var x = event.which || event.keyCode;
+  if (x == 13) {
+    bøjd.className = "show";
+  }
