@@ -5,7 +5,6 @@
   font-family: Graphik;
 
 }
-
 :root {
   --primary-color: #171717;
   --lighter-dark: #1a1a1a;
@@ -20,9 +19,9 @@ body {
   background-color: var(--primary-color);
 }
 
+
 .page-container {
  height: 100vh;
-
 }
 .sidebar {
   padding: 40px 30px;
@@ -31,9 +30,6 @@ body {
   width: 300px;
   background-color: var(--lighter-dark);
   border-right: 1px solid var(--border-color);
-
-
-
 }
 .sidebar ul {
   list-style-type: none;
@@ -42,14 +38,10 @@ body {
   font-size: 18px;
   font-weight: 500;
  cursor: pointer;
-
-
 }
 .sidebar ul li {
   display: flex;
-
 }
-
 .sidebar ul li p {
  padding: 15px;
 }
@@ -70,7 +62,6 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
-
 }
 .feedback-container h3 {
   text-align: center;
@@ -88,7 +79,6 @@ body {
   font-weight: 600;
 margin-top: 30px;,
 cursor: pointer;
-
 }
 .logout {
   margin-top: 10px;
@@ -114,8 +104,6 @@ cursor: pointer;
   background-color: var(--lighter-dark);
   border-bottom: 1px solid var(--border-color);
   display: flex;
-
-
 }
 .header-search {
   height: 50px;
@@ -124,7 +112,6 @@ cursor: pointer;
   margin-top: 23px;
   border-radius: 15px;
   background-color: #202020;
-
 }
 .header-search input {
   padding-left: 20px;
@@ -142,9 +129,7 @@ cursor: pointer;
   justify-content: flex-end;
   margin-right: 40px;
   list-style-type: none;
-
 }
-
 .profile-header {
   display: flex;
 }
@@ -155,23 +140,32 @@ cursor: pointer;
  background-color: var(--cta-color);
  text-align: center;
  color: var(--text-color);
- font-size: 18px;
+ font-size: 14px;
  font-weight: 600;
  margin-right: 30px;
+ cursor: pointer;
+ padding-top: 3px;
 }
 .cta-button-header p {
   margin-top: 6px;
 }
 .notifikation-header {
    margin-right: 30px;
+   cursor: pointer;
 }
 .profile-header img{
   margin-right: 30px;
+  cursor: pointer;
 }
 .profile-header p {
   color: var(--text-color);
   font-size: 18px;
   font-weight: 600;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.arrowdown-header {
+  margin-top: 15px;
 }
 a:visited{
   text-decoration: none;
