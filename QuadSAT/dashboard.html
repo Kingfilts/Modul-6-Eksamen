@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <script src="supportJS.js"></script>
   <script type="text/javascript" src="main.js" charset="utf-8" defer></script>
   <title>Dashboard</title>
 </head>
@@ -61,7 +60,7 @@
         </a>
       </li>
       <li>
-        <a href="dashboard.html">
+        <a href="#">
           <span class="material-icons">space_dashboard</span>
           <p>Dashboard</p>
         </a>
@@ -114,42 +113,57 @@
       </li>
     </ul>
   </div>
-  <div class="body-content">
-  <p class="get-help"> Get help from our professionals </p>
-    <div class="support-chat">
-      <div class="flexstart">
-            <div class="maanehans1">
-              <img src="img/NoPath.png" alt="Maanehans">
-            </div>
-            <div class="wrapperr">
-              <div class="help-text">
-                <p> Hello, I ran into problems </p>
-              </div>
-              <div class="help-text2">
-                <p> How do I include my data? </p>
-              </div>
-            </div>
-            <div class="maanelars">
-              <img src="img/maanelars.png" alt="lars">
-            </div>
-            <div class="help-text3">
-              <p> Hello Martin, you will have to go to the "projects" tab and then click on "new projects" from there on you just enter relevant details</p>
-            </div>
-            <div class="maanehans2">
-              <img src="img/NoPath.png" alt="Maanehans">
-            </div>
-            <div class="help-text4">
-              <p> I'm cracked at Fortnite</p>
-            </div>
+
+<div class="dashBody">
+  <div class="dashText">
+  <p>My Dashboard </p>
+  <p>Data is being pulled from (projectname) </p>
+</div>
+    <div class="dashContainer">
+      <div class="linearBox">
+        <button class="linear" type="button"> Linear <img src="img/linearofdoom.png" alt="" width="60px" height="60px"> </button>
       </div>
-      <div class="support-text">
-        <input type="text" name="doesthismatter" placeholder="You need help? Type a message to get started...">
-        <span class="material-icons">attachment</span>
-        <span class="material-icons" style="color: #2C3AFF;" onclick="popuptoast();">send</span>
-        <div id="toastPopup">Thank you for your message, a support has been contacted and is on their way! </div>
+      <div class="cubicBox">
+        <button class="cubic" type="button"> Cubic <img src="img/boxofdoom.png" alt="" width="60px" height="60px"> </button>
+      </div>
+      <div class="noneBox">
+        <button class="none" type="button"> None <img src="img/cancel.png" alt="" width="60px" height="60px"></button>
       </div>
     </div>
-  </div>
+    <div class="graphContainer">
+      <img src="img/graph1.png" alt="">
+    </div>
+    <div class="dashInfo">
+      <div class="dashInfoTxt">
+        <p> Current Active Project </p>
+        <p> SprogØ Testing </p>
+      </div>
+      <div class="dashTxtList">
+        <div class="dashInfoTxt2">
+          <p>Latitude:</p>
+          <p>Longtitude:</p>
+          <p>Altitude:</p>
+          <p>Azimuth:</p>
+          <p>Elevation:</p>
+          <p>Anti-Aliasing:</p>
+        </div>
+        <div class="dashInfoTxt3">
+          <p>0.00003°</p>
+          <p>23.40603°</p>
+          <p>1.01 M</p>
+          <p>13.3233°</p>
+          <p>23.3233°</p>
+          <label class="checkKnap">
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+          </label>
+        </div>
+      </div>
+      <div class="dashInfoBtns">
+        <button class="editFile1">Edit file<img src="img/edit.png" alt="" width="20px" height="20px"></button>
+        <button class="saveFile1">Save file<img src="img/save-projects.png" alt="" width="20px" height="20px"></button>
+      </div>
+    </div>
 </div>
 
 </body>
