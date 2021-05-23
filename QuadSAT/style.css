@@ -394,6 +394,7 @@ margin-bottom: 15px;
   background-color: var(--lighter-dark);
   border-bottom: 1px solid var(--border-color);
   display: flex;
+  z-index: 9999;
 }
 .header-search {
   height: 50px;
@@ -680,7 +681,7 @@ Dashboard page */
   position: absolute;
   display: inline-flex;
   height: 150px;
-  top: 20%;
+  top: 175px;
   left: 90px;
 }
 .linearBox {
