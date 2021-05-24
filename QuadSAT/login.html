@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+      <script type="text/javascript" src="main.js" charset="utf-8" defer></script>
+
 
 <div class="login-wrapper">
 
@@ -14,20 +16,17 @@
 
 
 
-        <input class="logbtn" type="text" name="username" placeholder="Username" required>
-        <input class="logbtn" type="password" name="password" placeholder="Password" required>
+        <input id="username" class="logbtn" type="text" name="username" placeholder="Username" required>
+        <input id="password" class="logbtn" type="password" name="password" placeholder="Password" required>
         <div class="login-overskrift">
         <h2 class="overskrift1">Remember me</h2>
         <h3 class="overskrift2">Forgot Password?</h3>
         </div>
         <br>
         <br>
-        <a class="logind-knap" href="index.html">
-        <input class="logbtn" type="submit" value="Log In">
-        </a>
-        <h4 class="overskrift3">No account yet?</h4>
+        <input class="logbtn" type="submit" value="Log In" onclick="auth()">
+        <h4 class="overskrift3">Pssst the username and password is Admin</h4>
   </div>
-
 
 
 

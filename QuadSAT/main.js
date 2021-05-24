@@ -76,3 +76,17 @@ function myFunction(event) {
     bøjd.className = "show";
   }
 }
+
+function auth(){
+  var username = document.getElementById('username').value;
+  var password = document.getElementById('password').value;
+
+  if ( username == "admin" & password == "admin"){
+    alert("Hello and Welcome, you'll be redirected shortly");
+    window.location = "index.html";
+    return false;
+  }
+  else {
+    alert("Wrong username and password");
+  }
+}
