@@ -76,4 +76,3 @@ function myFunction(event) {
     bøjd.className = "show";
   }
 }
-.
