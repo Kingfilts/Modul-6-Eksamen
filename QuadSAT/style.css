@@ -394,6 +394,7 @@ margin-bottom: 15px;
   background-color: var(--lighter-dark);
   border-bottom: 1px solid var(--border-color);
   display: flex;
+  z-index: 999;
 }
 .header-search {
   height: 50px;
@@ -862,6 +863,7 @@ margin-top: 15px;
   height: calc(100% - 100px);
   position: absolute;
   padding: 60px 30px 30px 60px;
+  z-index: 1;
 }
 .projectsheadtext {
   display: flex;
@@ -885,19 +887,13 @@ table {
   margin-top: 30px;
   text-align: left;
   padding-left: 30px;
-
 }
 thead {
   color: var(--text-color);
-
 }
 tbody {
-
 color: var(--text-color);
-
-
 }
-
 tbody {
   background-color: var(--lighter-dark);
 
