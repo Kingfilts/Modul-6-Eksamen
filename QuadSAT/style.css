@@ -860,3 +860,73 @@ input[type="checkbox"] {
 .dashInfoBtns button:nth-child(2){
   margin-left: 50px;
 }
+.projectBody {
+  top: 100px;
+  left: 300px;
+  width: calc(100% - 300px);
+  height: calc(100% - 100px);
+  position: absolute;
+  padding: 60px 30px 30px 60px;
+}
+.projectsheadtext {
+  display: flex;
+  width: 100%;
+  color: var(--text-color);
+  font-size: 30px;
+}
+
+.projectsheadtext2 {
+  position: absolute;
+  right: 30px;
+  top: 82px;
+  outline: none;
+}
+.projectsheadtext2 button {
+  outline: none;
+  border: none;
+}
+table {
+  width: 100%;
+  margin-top: 30px;
+  text-align: left;
+  padding-left: 30px;
+
+}
+thead {
+  color: var(--text-color);
+
+}
+tbody {
+
+color: var(--text-color);
+
+
+}
+
+tbody {
+  background-color: var(--lighter-dark);
+
+}
+td {
+  background: var(--lighter-dark);
+  padding: 5px;
+}
+table {
+background: var(--lighter-dark);
+  border-spacing: 35px;
+}
+.table-active {
+  background-color: var(--active-color);
+  border-radius: 30px;
+  padding: 10px 0px 10px 0;
+  text-align: center;
+}
+.table-inactive {
+  background-color: var(--inactive-color);
+  border-radius: 30px;
+  padding: 10px 0px 10px 0;
+  text-align: center;
+}
+td img span {
+  padding-bottom
+}
