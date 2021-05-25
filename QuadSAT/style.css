@@ -1,23 +1,19 @@
 @font-face{
     font-family:'Graphik';
-    src: url('../fonts/Graphik-Black.otf'),
-      url('../fonts/Graphik-BlackItalic.otf'),
-      url('../fonts/Graphik-Bold.otf'),
-      url('../fonts/GraphikBoldItalic.otf'),
-      url('../fonts/Extralight.otf'),
-      url('../fonts/ExtralightItalic.otf'),
-      url('../fonts/Light.otf'),
-      url('../fonts/LightItalic.otf'),
-      url('../fonts/Medium.otf'),
-      url('../fonts/MediumItalic.otf'),
-      url('../fonts/Regular.otf'),
-      url('../fonts/RegularItalic.otf'),
-      url('../fonts/Semibold.otf'),
-      url('../fonts/SemiboldItalic.otf'),
-      url('../fonts/Thin.otf'),
-      url('../fonts/ThinItalic.otf');
+    src: url('../fonts/Graphik-Black.otf');
 }
-
+@font-face{
+    font-family:'Graphik';
+    src: url('../fonts/Graphik-Regular.otf');
+}
+@font-face{
+    font-family:'Graphik';
+    src: url('../fonts/Graphik-Semibold.otf');
+}
+@font-face{
+    font-family:'Graphik';
+    src: url('../fonts/Graphik-Bold.otf');
+}
 * {
   padding: 0;
   margin: 0;
