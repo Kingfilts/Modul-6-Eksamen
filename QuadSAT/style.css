@@ -505,8 +505,8 @@ Support page */
 .get-help {
   color: var(--text-color);
   font-weight: bold;
-  font-size: 40px;
-  margin-top: 60px;
+  font-size: 63px;
+  margin-top: 30px;
   margin-left: 60px;
 }
 .support-chat {
