@@ -488,6 +488,7 @@ Support page */
   margin-left: 100px;
 }
 .support-chat {
+  position: relative;
   right: 100px;
   top: 230px;
   width: calc(100% - 500px);
@@ -506,9 +507,11 @@ Support page */
   top: 50%;
 }
 .support-text {
-  position: relative;
+  position: absolute;
+  bottom: 0;
   width: calc(100% - 100px);
-  margin: auto;
+  margin-left: 50px;
+  margin-bottom: 30px;
   height: 60px;
   background-color: #202020;
   border-radius: 8px;
@@ -534,10 +537,25 @@ Support page */
   display: inline-block;
   float: left;
 }
+@media screen and (max-width: 1400px){
+  .maanehans1 img {
+    width: 80%;
+    height: 60%;
+  }
+}
 .maanehans2 {
+  position: relative;
   padding-top: 250px;
+  top: 25%;
+}
+@media screen and (max-width: 1400px) {
+  .maanehans2 img {
+    width: 100px;
+    height: 50px;
+  }
 }
 .help-text {
+  position: absolute;
   display: inline-block;
   float: left;
   margin-top: 60px;
@@ -547,6 +565,19 @@ Support page */
   height: 50px;
   background-color: var(--cta-color);
 }
+@media screen and (max-width: 1400px) {
+  .help-text {
+    position: absolute;
+    display: inline-block;
+    float: left;
+    margin-top: 60px;
+    margin-left: 5px;
+    border-radius: 13px;
+    width: 240px;
+    height: 30px;
+    background-color: var(--cta-color);
+  }
+}
 .help-text p {
   text-align: left;
   margin-top: 12px;
@@ -554,14 +585,40 @@ Support page */
   margin-left: 10px;
   color: var(--text-color);
 }
+@media screen and (max-width: 1400px) {
+  .help-text p {
+    text-align: left;
+    margin-top: 3px;
+    font-size: 15px;
+    margin-left: 10px;
+    color: var(--text-color);
+  }
+}
+
 .help-text2 {
+  position: absolute;
   display: inline-flex;
+  top: 100px;
   margin-top: 30px;
   margin-left: 30px;
   border-radius: 13px;
-  width: 290px;
+  width: 280px;
   height: 50px;
   background-color: var(--cta-color);
+  min-width: 50px;
+}
+@media screen and (max-width: 1400px) {
+  .help-text2 {
+    position: absolute;
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 13px;
+    width: 240px;
+    height: 30px;
+    background-color: var(--cta-color);
+  }
 }
 .help-text2 p {
   text-align: left;
@@ -570,6 +627,15 @@ Support page */
   font-size: 18px;
   color: var(--text-color);
 }
+@media screen and (max-width: 1400px) {
+  .help-text2 p {
+    text-align: left;
+    margin-top: 3px;
+    font-size: 15px;
+    margin-left: 10px;
+    color: var(--text-color);
+  }
+}
 .help-text3 p {
   text-align: left;
   margin-left: 10px;
@@ -577,24 +643,55 @@ Support page */
   font-size: 18px;
   color: var(--primary-color);
 }
+@media screen and (max-width: 1400px) {
+  .help-text3 p {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 12px;
+    font-size: 15px;
+    color: var(--primary-color);
+  }
+}
 .help-text3 {
   display: inline-flex;
   float: right;
-  margin-top: 50px;
+  margin-top: 220px;
   border-radius: 13px;
   width: 290px;
   height: 150px;
   background-color: var(--text-color);
 }
+@media screen and (max-width: 1400px) {
+  .help-text3 {
+    display: inline-flex;
+    margin-top: 220px;
+    border-radius: 13px;
+    width: 250px;
+    height: 100px;
+    background-color: var(--text-color);
+  }
+}
 .help-text4 {
   display: inline-flex;
   position: relative;
-  top: -70px;
+  top: 15.5%;
   border-radius: 13px;
   margin-left: 160px;
   width: 290px;
   height: 50px;
   background-color: var(--cta-color);
+}
+@media screen and (max-width: 1400px) {
+  .help-text4 {
+    display: inline-flex;
+    position: relative;
+    top: 17%;
+    border-radius: 13px;
+    margin-left: 130px;
+    width: 240px;
+    height: 30px;
+    background-color: var(--cta-color);
+  }
 }
 .help-text4 p {
   text-align: left;
@@ -603,16 +700,30 @@ Support page */
   font-size: 18px;
   color: var(--text-color);
 }
+@media screen and (max-width: 1400px) {
+  .help-text4 p {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 3px;
+    font-size: 15px;
+    color: var(--text-color);
+  }
+}
 .wrapperr {
   display: flex;
   flex-direction: column;
 }
 .maanelars {
   float: right;
-  margin-top: 80px;
+  margin-top: 250px;
   margin-right: 50px;
 }
-
+@media screen and (max-width: 1400px){
+  .maanelars img {
+    width: 80%;
+    height: 60%;
+  }
+}
 #toastPopup {
   visibility: hidden;
   min-width: 300px;
@@ -661,14 +772,12 @@ Dashboard page */
 }
 .headertext{
   display: inline-block;
-  position: absolute;
-  top: 5%;
-  left: 30px;
+  position: relative;
   height: 150px;
 }
 .headertext p:nth-child(1) {
   color: var(--text-color);
-  font-size: 62px;
+  font-size: 64px;
   font-weight: 600;
 }
 .headertext p:nth-child(2) {
@@ -681,7 +790,6 @@ Dashboard page */
   display: flex;
   height: 150px;
   width: 100%;
-  top: 16%;
 }
 .none img {
   position: absolute;
@@ -735,7 +843,6 @@ Dashboard page */
 .none{
   position: relative;
   width: 33%;
-  margin-right:30px;
   border-radius: 23px;
   background-color: var(--lighter-dark);
   color: var(--text-color);
@@ -746,11 +853,14 @@ Dashboard page */
   cursor: pointer;
   border: none;
 }
+.active {
+  background-color: var(--cta-color);
+}
 .botRow{
   position: relative;
   display: flex;
   width: 100%;
-  top: 20%;
+  top: 4%;
 }
 .graph{
   width: 70%;
@@ -856,6 +966,7 @@ margin-top: 15px;
   top: 9px;
   left: 90px;
 }
+
 .projectBody {
   top: 100px;
   left: 300px;
