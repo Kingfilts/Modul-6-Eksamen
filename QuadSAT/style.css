@@ -823,7 +823,7 @@ Dashboard page */
   position: absolute;
   width: 75px;
   height: 75px;
-  left: 260px;
+  left: 60%;
   top: 43px;
 }
 .cubic img {
@@ -831,14 +831,14 @@ Dashboard page */
   width: 75px;
   height: 75px;
   top: 43px;
-  left: 260px;
+  left: 60%;
 }
 .linear img {
   position: absolute;
   width: 75px;
   height: 75px;
   top: 43px;
-  left: 280px;
+  left: 60%;
 }
 .linear{
   position: relative;
@@ -850,7 +850,7 @@ Dashboard page */
   font-size: 40px;
   font-weight: 600;
   text-align: left;
-  padding-left: 140px;
+  padding-left: 6%;
   cursor: pointer;
   border: none;
 }
@@ -864,7 +864,7 @@ Dashboard page */
   font-size: 30px;
   font-weight: 600;
   text-align: left;
-  padding-left: 150px;
+  padding-left: 6%;
   cursor: pointer;
   border: none;
 }
@@ -877,7 +877,7 @@ Dashboard page */
   font-size: 30px;
   font-weight: 600;
   text-align: left;
-  padding-left: 150px;
+  padding-left: 6%;
   cursor: pointer;
   border: none;
 }
