@@ -1120,7 +1120,6 @@ align-items: center;
   border-radius: 20px;
   background-color: #202020;
   padding: 100px 0 30px 0;
-  width: 1100px;
   height: 700px;
 }
 
@@ -1146,8 +1145,8 @@ color: #fff;
 font-weight: normal;
 font-size: 13px;
 text-align: left;
-margin-left: 260px;
-margin-right: 25px;
+display: flex;
+justify-content: center;
 }
 
 
