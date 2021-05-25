@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <script type="text/javascript"  src="main.js" charset="utf-8" defer></script>
+  <title>Settings</title>
+</head>
+<body>
+
+
+<div id="feedback-modal2" class="modal">
+
+<div class="feedback-modal">
+
+<div id="feedback" class="feedback-container">
+<strong>Please leave us your feedback, it means a lot!</strong>
+
+ <div class="feedback-rank-container">
+
+ <div class="feedback-rank">
+      <img src="img/sad.png" alt="">
+      <small>Not happy</small>
+  </div>
+
+  <div class="feedback-rank">
+      <img src="img/neutral.png" alt="">
+      <small>It's okay</small>
+  </div>
+
+  <div class="feedback-rank">
+      <img src="img/smile.png" alt="">
+      <small>Very Good</small>
+</div>
+  </div>
+
+  <div class="button-container">
+
+
+  <button class="btn-cancel" id="cancel">Cancel</button>
+
+  <button class="btn-submit" id="submit">Submit Feedback</button>
+
+  </div>
+
+  </div>
+  </div>
+</div>
+
+
+
+
+<div class="page-container">
+  <div class="sidebar">
+    <img src="img/whitelogo.svg" alt="">
+    <ul>
+      <li>
+        <a href="index.html">
+          <span class="material-icons">save</span>
+          <p>Projects</p>
+        </a>
+      </li>
+      <li>
+        <a href="dashboard.html">
+          <span class="material-icons">space_dashboard</span>
+          <p>Dashboard</p>
+        </a>
+      </li>
+      <li>
+        <a href="support.html">
+          <span class="material-icons">chat</span>
+          <p>Support</p>
+        </a>
+      </li>
+      <li>
+        <a href="settings.html">
+          <span class="material-icons">settings</span>
+          <p>Settings</p>
+        </a>
+      </li>
+
+    </ul>
+    <div class="feedback-container">
+      <h3>We love Feedback</h3>
+      <img src="img/feedback-star.png" width="48px" height="48px">
+      <button id="btnfeedback" class="btn-feedback" type="button" name="button">Give feedback</button>
+    </div>
+    <div class="logout">
+    <a href="login.html">
+    <img src="img/logout.svg" alt="" width="26px" height="26px">
+    <li class="sidebar-logout">Logout
+    </a>
+    </li>
+    </div>
+  </div>
+  <div class="header-content">
+    <nav>
+      <div class="header-search">
+        <input type="text" name="form-control" placeholder="Search here....">
+        <img src="img/icon-search1.svg" alt="" width="20px" height="20px">
+      </div>
+    </nav>
+    <ul class="header-elements">
+      <li class="notifikation-header">
+        <img src="img/notifikation.svg" alt="notifikation">
+      </li>
+      <li class="profile-header">
+        <img src="img/profile-header.svg" alt="Profile picture" height="54px" width="54px">
+        <p>Mr.Dogecrash</p>
+         <img class="arrowdown-header" src="img/arrow-down.svg" alt="arrow down" width="24px" height="24px">
+      </li>
+    </ul>
+  </div>
+
+
+  <div class="settingsBody">
+<div class="settingstext1">
+    <h1>Settings</h1>
+  </div>
+
+  <div class="settingstext2">
+  <h2>Account Information</h2>
+  </div>
+
+
+<div class="settings-wrapper">
+  <div class="settings-container">
+  <img src="img/edit-profile-doge.png" width="100px" height="100px">
+   <h1 class="settings-h1">Change profile photo</h1>
+    <div class="settingsbox">
+
+  <h3 class="settings-h3">Full name</h3>
+  <input id="fullname" class="setbtn" type="text" name="username" placeholder="Full name" required>
+
+  <h3 class="settings-h3">Email</h3>
+  <input id="email" class="setbtn" type="text" name="email" placeholder="Email" required>
+
+  <h3 class="settings-h3">Password</h3>
+  <input id="password" class="setbtn" type="password" name="password" placeholder="Password" required>
+
+    <br>
+      <br>
+  <input class="setbtn2" type="submit" value="Save" onclick="auth()">
+</div>
+
+
+
+     </div>
+    </div>
+
+
+</div>
