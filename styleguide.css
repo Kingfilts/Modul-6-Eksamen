@@ -64,7 +64,7 @@ margin-top: 100px;
 }
 .color {
   background-color: #2C3AFF;
-  height: 150px;
+  height: 170px;
   width: 150px;
   display: flex;
   align-items: center;
@@ -74,7 +74,7 @@ margin-top: 100px;
 }
 .color2 {
   background-color: #F4F4F4;
-  height: 150px;
+  height: 170px;
   width: 150px;
   display: flex;
   align-items: center;
@@ -83,8 +83,8 @@ margin-top: 100px;
 
 }
 .color3 {
-  background-color: #A1A1A1;
-  height: 150px;
+  background-color: #171717;
+  height: 170px;
   width: 150px;
   display: flex;
   align-items: center;
@@ -93,8 +93,26 @@ margin-top: 100px;
 
 }
 .color4 {
-  background-color: #171717;
-  height: 150px;
+  background-color: #1E1E1E;
+  height: 170px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.color5 {
+  background-color: #3ABC3A;
+  height: 170px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.color6 {
+  background-color: #FF3030;
+  height: 170px;
   width: 150px;
   display: flex;
   align-items: center;
@@ -113,7 +131,7 @@ font-size: 16px;
   width: 80%;
 
 }
-.flex-typograhy1 { 
+.flex-typograhy1 {
 display: flex;
 margin-top: 80px;
 align-items: center;
