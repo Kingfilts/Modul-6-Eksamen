@@ -435,7 +435,7 @@ margin-bottom: 15px;
  font-weight: 600;
  margin-right: 30px;
  cursor: pointer;
- padding-top: 3px;
+ 
 }
 .cta-button-header p {
   margin-top: 6px;
@@ -1022,13 +1022,22 @@ background: var(--lighter-dark);
   border-radius: 30px;
   padding: 10px 0px 10px 0;
   text-align: center;
+  width: 130px;
 }
 .table-inactive {
   background-color: var(--inactive-color);
   border-radius: 30px;
   padding: 10px 0px 10px 0;
   text-align: center;
+  width: 130px;
 }
-td img span {
-  padding-bottom
+.tabledisplayflex {
+  display: flex;
+  align-items: center;
+}
+.tabledisplayflex span {
+padding-left: 30px;
+}
+.tableicons {
+  display: flex;
 }
