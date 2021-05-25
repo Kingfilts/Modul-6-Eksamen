@@ -91,6 +91,7 @@ function auth(){
   }
 }
 
+//Outdated attempts
 /*document.getElementById("linearId");
 .addEventListener("click", function() {
   if (this.classList.contains("activator")) {
@@ -121,6 +122,7 @@ for (let p = 0; p < allBtns.length; p++) {
   });
 }
 
+// Outdated attempt
 //function removeActivator() {
 //  for(let p = 0; p < dashButtons.length; p++) {
 //     dashButtons[p].classList.remove("activator")
