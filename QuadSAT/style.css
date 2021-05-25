@@ -1,20 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: Graphik;
-
-}
-:root {
-  --primary-color: #171717;
-  --lighter-dark: #1a1a1a;
-  --text-color: #f4f4f4;
-  --cta-color: #2C3AFF;
-  --active-color: #3ABC3A;
-  --inactive-color: #FF3030;
-  --border-color: #262626;
-}
-
 @font-face{
     font-family:'Graphik';
     src: url('fonts/Graphik-Black.otf');
@@ -34,6 +17,24 @@
     src: url('fonts/Thin.otf');
     src: url('fonts/ThinItalic.otf');
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Graphik";
+
+}
+:root {
+  --primary-color: #171717;
+  --lighter-dark: #1a1a1a;
+  --text-color: #f4f4f4;
+  --cta-color: #2C3AFF;
+  --active-color: #3ABC3A;
+  --inactive-color: #FF3030;
+  --border-color: #262626;
+}
+
 
 body {
   background-color: var(--primary-color);
