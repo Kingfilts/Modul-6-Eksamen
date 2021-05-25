@@ -1,24 +1,24 @@
 @font-face{
-    font-family:'Graphik';
+    font-family:'Graphik-Black';
     src: url('../fonts/Graphik-Black.otf');
 }
 @font-face{
-    font-family:'Graphik';
+    font-family:'Graphik-Regular';
     src: url('../fonts/Graphik-Regular.otf');
 }
 @font-face{
-    font-family:'Graphik';
+    font-family:'Graphik-Semibold';
     src: url('../fonts/Graphik-Semibold.otf');
 }
 @font-face{
-    font-family:'Graphik';
+    font-family:'Graphik-Bold';
     src: url('../fonts/Graphik-Bold.otf');
 }
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Graphik';
+  font-family: 'Graphik-Black';
 
 }
 :root {
@@ -31,10 +31,12 @@
   --border-color: #262626;
 }
 
-h1 {
-  font-family: 'Graphik';
+h1, h2, h3, h4 {
+  font-family: 'Graphik-Black';
 }
-
+th,td,span {
+  font-family: 'Graphik-Semibold';
+}
 body {
   background-color: var(--primary-color);
 }
@@ -339,6 +341,9 @@ margin-bottom: 15px;
   background-color: var(--lighter-dark);
   border-right: 1px solid var(--border-color);
 }
+.sidebar p {
+  font-family: 'Graphik-Semibold';
+}
 .sidebar ul {
   list-style-type: none;
   margin-top: 15px;
@@ -454,9 +459,10 @@ margin-bottom: 15px;
  margin-right: 30px;
  cursor: pointer;
 
+
 }
 .cta-button-header p {
-  margin-top: 6px;
+  margin-top: 9px;
 }
 .notifikation-header {
    margin-right: 30px;
@@ -497,6 +503,10 @@ Support page */
   height: calc(100% - 100px);
   position: fixed;
   display: flex;
+}
+.body-content p {
+  font-family: 'Graphik-Semibold';
+  font-size: 15px;
 }
 .get-help {
   color: var(--text-color);
@@ -542,7 +552,8 @@ Support page */
   padding-left: 20px;
   outline: none;
   border: none;
-  color: var(--text-color)
+  color: var(--text-color);
+  font-family: 'Graphik-Semibold';
 }
 .support-text span:nth-child(2) {
   padding-right: 50px;
