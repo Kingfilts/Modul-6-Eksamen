@@ -482,14 +482,14 @@ Support page */
 }
 .get-help {
   color: var(--text-color);
-  font-weight: 600;
+  font-weight: bold;
   font-size: 40px;
   margin-top: 60px;
-  margin-left: 100px;
+  margin-left: 60px;
 }
 .support-chat {
   position: relative;
-  right: 100px;
+  right: 140px;
   top: 230px;
   width: calc(100% - 500px);
   height: calc(100% - 260px);
@@ -581,7 +581,6 @@ Support page */
 .help-text p {
   text-align: left;
   margin-top: 12px;
-  font-size: 18px;
   margin-left: 10px;
   color: var(--text-color);
 }
@@ -624,7 +623,6 @@ Support page */
   text-align: left;
   margin-left: 10px;
   margin-top: 12px;
-  font-size: 18px;
   color: var(--text-color);
 }
 @media screen and (max-width: 1400px) {
@@ -640,7 +638,6 @@ Support page */
   text-align: left;
   margin-left: 10px;
   margin-top: 12px;
-  font-size: 18px;
   color: var(--primary-color);
 }
 @media screen and (max-width: 1400px) {
@@ -655,10 +652,10 @@ Support page */
 .help-text3 {
   display: inline-flex;
   float: right;
-  margin-top: 220px;
+  margin-top: 240px;
   border-radius: 13px;
   width: 290px;
-  height: 150px;
+  height: 112px;
   background-color: var(--text-color);
 }
 @media screen and (max-width: 1400px) {
@@ -685,7 +682,7 @@ Support page */
   .help-text4 {
     display: inline-flex;
     position: relative;
-    top: 17%;
+    top: 18%;
     border-radius: 13px;
     margin-left: 130px;
     width: 240px;
@@ -697,7 +694,6 @@ Support page */
   text-align: left;
   margin-left: 10px;
   margin-top: 12px;
-  font-size: 18px;
   color: var(--text-color);
 }
 @media screen and (max-width: 1400px) {
@@ -775,21 +771,24 @@ Dashboard page */
   position: relative;
   height: 150px;
 }
-.headertext p:nth-child(1) {
+.headertext h1 {
   color: var(--text-color);
-  font-size: 64px;
-  font-weight: 600;
+  font-size: 63px;
+  font-weight: bold;
+  padding-left: 30px;
 }
 .headertext p:nth-child(2) {
   color: var(--text-color);
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
+  padding-left: 30px;
 }
 .buttonRow {
   position: relative;
   display: flex;
   height: 150px;
   width: 100%;
+  padding-left: 22px;
 }
 .none img {
   position: absolute;
@@ -861,6 +860,7 @@ Dashboard page */
   display: flex;
   width: 100%;
   top: 4%;
+  padding-left: 20px;
 }
 .graph{
   width: 70%;

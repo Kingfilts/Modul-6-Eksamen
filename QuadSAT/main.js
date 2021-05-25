@@ -97,3 +97,17 @@ document.getElementById("linearId")
     this.classList.remove("active");
   } else this.classList.add("active");
 });
+
+document.getElementById("cubicId")
+.addEventListener("click", function() {
+  if (this.classList.contains("active")) {
+    this.classList.remove("active");
+  } else this.classList.add("active");
+});
+
+document.getElementById("noneId")
+.addEventListener("click", function() {
+  if (this.classList.contains("active")) {
+    this.classList.remove("active");
+  } else this.classList.add("active");
+});
