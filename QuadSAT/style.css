@@ -15,6 +15,26 @@
   --border-color: #262626;
 }
 
+@font-face{
+    font-family:'Graphik';
+    src: url('fonts/Graphik-Black.otf');
+    src: url('fonts/Graphik-BlackItalic.otf');
+    src: url('fonts/Graphik-Bold.otf');
+    src: url('fonts/GraphikBoldItalic.otf');
+    src: url('fonts/Extralight.otf');
+    src: url('fonts/ExtralightItalic.otf');
+    src: url('fonts/Light.otf');
+    src: url('fonts/LightItalic.otf');
+    src: url('fonts/Medium.otf');
+    src: url('fonts/MediumItalic.otf');
+    src: url('fonts/Regular.otf');
+    src: url('fonts/RegularItalic.otf');
+    src: url('fonts/Semibold.otf');
+    src: url('fonts/SemiboldItalic.otf');
+    src: url('fonts/Thin.otf');
+    src: url('fonts/ThinItalic.otf');
+}
+
 body {
   background-color: var(--primary-color);
 }
