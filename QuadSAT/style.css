@@ -665,14 +665,14 @@ Support page */
 .help-text3 p {
   text-align: left;
   margin-left: 10px;
-  margin-top: 12px;
+  margin-top: 17px;
   color: var(--primary-color);
 }
 @media screen and (max-width: 1400px) {
   .help-text3 p {
     text-align: left;
     margin-left: 10px;
-    margin-top: 12px;
+    margin-top: 8px;
     font-size: 15px;
     color: var(--primary-color);
   }
@@ -683,7 +683,7 @@ Support page */
   margin-top: 240px;
   border-radius: 13px;
   width: 290px;
-  height: 112px;
+  height: 122px;
   background-color: var(--text-color);
 }
 @media screen and (max-width: 1400px) {
@@ -692,7 +692,7 @@ Support page */
     margin-top: 220px;
     border-radius: 13px;
     width: 250px;
-    height: 100px;
+    height: 115px;
     background-color: var(--text-color);
   }
 }
