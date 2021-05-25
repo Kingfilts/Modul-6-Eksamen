@@ -396,7 +396,6 @@ margin-bottom: 15px;
 .logout {
   margin-top: 10px;
   display: flex;
-  height: 140px;
   width: 60%;
   color: var(--text-color);
 }
