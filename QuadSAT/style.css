@@ -1,8 +1,21 @@
 @font-face{
     font-family:'Graphik';
-    src: local('fonts/Graphik-Black.otf'), local('fonts/Graphik-BlackItalic.otf'), local('fonts/Graphik-Bold.otf'), local('fonts/GraphikBoldItalic.otf'), local('fonts/Extralight.otf'), local('fonts/ExtralightItalic.otf'),  local('fonts/Light.otf'),
-    local('fonts/LightItalic.otf'), local('fonts/Medium.otf'), local('fonts/MediumItalic.otf'), local('fonts/Regular.otf'), local('fonts/RegularItalic.otf'),
-    local('fonts/Semibold.otf'), local('fonts/SemiboldItalic.otf'), local('fonts/Thin.otf') , local('fonts/ThinItalic.otf');
+    src: local('fonts/Graphik-Black.otf')
+      local('fonts/Graphik-BlackItalic.otf') format("opentype")
+      local('fonts/Graphik-Bold.otf') format("opentype")
+      local('fonts/GraphikBoldItalic.otf') format("opentype")
+      local('fonts/Extralight.otf') format("opentype")
+      local('fonts/ExtralightItalic.otf') format("opentype")
+      local('fonts/Light.otf') format("opentype")
+      local('fonts/LightItalic.otf') format("opentype")
+      local('fonts/Medium.otf') format("opentype")
+      local('fonts/MediumItalic.otf') format("opentype")
+      local('fonts/Regular.otf') format("opentype")
+      local('fonts/RegularItalic.otf') format("opentype")
+      local('fonts/Semibold.otf') format("opentype")
+      local('fonts/SemiboldItalic.otf') format("opentype")
+      local('fonts/Thin.otf') format("opentype")
+      local('fonts/ThinItalic.otf') format("opentype");
 }
 
 * {
