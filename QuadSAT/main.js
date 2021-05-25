@@ -63,7 +63,7 @@ function removeActive() {
 
 function popuptoast() {
 
-  var bøjd = document.getElementById("toastPopup");
+  let bøjd = document.getElementById("toastPopup");
 
   bøjd.className = "show";
 
@@ -71,7 +71,7 @@ function popuptoast() {
 }
 
 function myFunction(event) {
-  var x = event.which || event.keyCode;
+  let x = event.which || event.keyCode;
   if (x == 13) {
     bøjd.className = "show";
   }
@@ -91,23 +91,38 @@ function auth(){
   }
 }
 
-document.getElementById("linearId")
+/*document.getElementById("linearId");
 .addEventListener("click", function() {
-  if (this.classList.contains("active")) {
-    this.classList.remove("active");
-  } else this.classList.add("active");
+  if (this.classList.contains("activator")) {
+    this.classList.remove("activator");
+  } else this.classList.add("activator");
 });
 
-document.getElementById("cubicId")
+document.getElementById("cubicId");
 .addEventListener("click", function() {
-  if (this.classList.contains("active")) {
-    this.classList.remove("active");
-  } else this.classList.add("active");
+  if (this.classList.contains("activator")) {
+    this.classList.remove("activator");
+  } else this.classList.add("activator");
 });
 
-document.getElementById("noneId")
+document.getElementById("noneId");
 .addEventListener("click", function() {
-  if (this.classList.contains("active")) {
-    this.classList.remove("active");
-  } else this.classList.add("active");
-});
+  if (this.classList.contains("activator")) {
+    this.classList.remove("activator");
+  } else this.classList.add("activator");
+}); */
+
+let btnTest = document.getElementById("buttonRow");
+let allBtns = btnTest.getElementsByTagName("button");
+for (var p = 0; i < allBtns.length; p++) {
+  allBtns[p].addEventListener("click", function() {
+    (document.querySelector(".activator")) ? document.querySelector(".activator").classList.remove("activator") : "";
+    this.classList.add("activator");
+  });
+}
+
+//function removeActivator() {
+//  for(let p = 0; p < dashButtons.length; p++) {
+//     dashButtons[p].classList.remove("activator")
+//  }
+//}
