@@ -1,21 +1,21 @@
 @font-face{
     font-family:'Graphik';
-    src: local('fonts/Graphik-Black.otf') format("opentype")
-      local('fonts/Graphik-BlackItalic.otf') format("opentype")
-      local('fonts/Graphik-Bold.otf') format("opentype")
-      local('fonts/GraphikBoldItalic.otf') format("opentype")
-      local('fonts/Extralight.otf') format("opentype")
-      local('fonts/ExtralightItalic.otf') format("opentype")
-      local('fonts/Light.otf') format("opentype")
-      local('fonts/LightItalic.otf') format("opentype")
-      local('fonts/Medium.otf') format("opentype")
-      local('fonts/MediumItalic.otf') format("opentype")
-      local('fonts/Regular.otf') format("opentype")
-      local('fonts/RegularItalic.otf') format("opentype")
-      local('fonts/Semibold.otf') format("opentype")
-      local('fonts/SemiboldItalic.otf') format("opentype")
-      local('fonts/Thin.otf') format("opentype")
-      local('fonts/ThinItalic.otf') format("opentype");
+    src: url('../fonts/Graphik-Black.otf'),
+      url('../fonts/Graphik-BlackItalic.otf'),
+      url('../fonts/Graphik-Bold.otf'),
+      url('../fonts/GraphikBoldItalic.otf'),
+      url('../fonts/Extralight.otf'),
+      url('../fonts/ExtralightItalic.otf'),
+      url('../fonts/Light.otf'),
+      url('../fonts/LightItalic.otf'),
+      url('../fonts/Medium.otf'),
+      url('../fonts/MediumItalic.otf'),
+      url('../fonts/Regular.otf'),
+      url('../fonts/RegularItalic.otf'),
+      url('../fonts/Semibold.otf'),
+      url('../fonts/SemiboldItalic.otf'),
+      url('../fonts/Thin.otf'),
+      url('../fonts/ThinItalic.otf');
 }
 
 * {
@@ -35,6 +35,9 @@
   --border-color: #262626;
 }
 
+h1 {
+  font-family: 'Graphik';
+}
 
 body {
   background-color: var(--primary-color);
