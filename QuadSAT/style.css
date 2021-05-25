@@ -1,6 +1,6 @@
 @font-face{
     font-family:'Graphik';
-    src: local('fonts/Graphik-Black.otf')
+    src: local('fonts/Graphik-Black.otf') format("opentype")
       local('fonts/Graphik-BlackItalic.otf') format("opentype")
       local('fonts/Graphik-Bold.otf') format("opentype")
       local('fonts/GraphikBoldItalic.otf') format("opentype")
