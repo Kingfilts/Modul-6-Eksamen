@@ -112,9 +112,9 @@ document.getElementById("noneId");
   } else this.classList.add("activator");
 }); */
 
-let btnTest = document.getElementById("buttonRow");
+let btnTest = document.getElementById("test1234");
 let allBtns = btnTest.getElementsByTagName("button");
-for (var p = 0; i < allBtns.length; p++) {
+for (let p = 0; p < allBtns.length; p++) {
   allBtns[p].addEventListener("click", function() {
     (document.querySelector(".activator")) ? document.querySelector(".activator").classList.remove("activator") : "";
     this.classList.add("activator");

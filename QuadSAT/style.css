@@ -874,7 +874,7 @@ Dashboard page */
   cursor: pointer;
   border: none;
 }
-.active {
+.activator {
   background-color: var(--cta-color);
 }
 .botRow{
