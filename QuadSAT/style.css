@@ -425,7 +425,14 @@ margin-bottom: 15px;
   margin-top: 23px;
   border-radius: 15px;
   background-color: #202020;
+  position: relative;
 }
+.header-search img{
+position: absolute;
+top: 30%;
+right: 8%;
+}
+
 .header-search input {
   padding-left: 20px;
   font-size: 18px;
